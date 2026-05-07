@@ -1,9 +1,16 @@
 package main;
 
 import java.util.*;
-import java.io.*;
 
 public class MainApp {
+
+static final String RESET = "\u001B[0m";
+static final String RED = "\u001B[91m";
+static final String GREEN = "\u001B[92m";
+static final String YELLOW = "\u001B[93m";
+static final String BLUE = "\u001B[94m";
+static final String PURPLE = "\u001B[95m";
+static final String CYAN = "\u001B[96m";
 
     static Scanner sc = new Scanner(System.in);
 
@@ -126,6 +133,7 @@ public class MainApp {
     // =====================================================
 
     static void printHatchback() {
+            System.out.print(GREEN);
             System.out.println("██╗  ██╗ █████╗ ████████╗ ██████╗██╗  ██╗██████╗  █████╗  ██████╗██╗  ██╗");
             System.out.println("██║  ██║██╔══██╗╚══██╔══╝██╔════╝██║  ██║██╔══██╗██╔══██╗██╔════╝██║ ██╔╝");
             System.out.println("███████║███████║   ██║   ██║     ███████║██████╔╝███████║██║     █████╔╝ ");
@@ -162,9 +170,12 @@ public class MainApp {
                 "WWWWWWWWWWWWWWWNNNXXKK000OOOOkkkkxxxxxxddddooooollllc:,'......,:coxOKXNNWWWWWWWWWWWWWWWWWWWWWWWWWWWW\n" +
                 "WWWWWWWWWWWWWWWWWWWNNWWNNNNNNNNNNXXXXXXXXXKKKKKK0000000000000KKXNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
               System.out.println("Compact & Budget Friendly");
+              System.out.print(RESET);
     }
 
-    static void printSUV() {
+    static void printSUV() 
+    {
+            System.out.print(BLUE);
             System.out.println("███████╗██╗   ██╗██╗   ██╗");
             System.out.println("██╔════╝██║   ██║██║   ██║");
             System.out.println("███████╗██║   ██║██║   ██║");
@@ -197,10 +208,11 @@ public class MainApp {
                 "MMMMMMMMMMMMMMMMMMWKd:.. ...... ..;xXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0o,.. .....  .':kNMMMMMMMMMMMMMMMMMMMMMM\n" +
                 "MMMMMMMMMMMMMMMMMMMMMNOl,.. ...,lkNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXxc'......;d0NMMMMMMMMMMMMMMMMMMMMMMMM");
         System.out.println("Spacious & Powerful");
+        System.out.print(RESET);
     }
 
     static void printLuxury() {
-
+            System.out.print(RED);
             System.out.println("██╗     ██╗   ██╗██╗  ██╗██╗   ██╗██████╗ ██╗   ██╗    ███████╗███████╗██████╗  █████╗ ███╗   ██╗");
             System.out.println("██║     ██║   ██║╚██╗██╔╝██║   ██║██╔══██╗╚██╗ ██╔╝    ██╔════╝██╔════╝██╔══██╗██╔══██╗████╗  ██║");
             System.out.println("██║     ██║   ██║ ╚███╔╝ ██║   ██║██████╔╝ ╚████╔╝     ███████╗█████╗  ██║  ██║███████║██╔██╗ ██║");
@@ -238,6 +250,7 @@ public class MainApp {
                     "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWN0dc;,,'''..',;lkXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
                     "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWNNNNNNNWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n");
         System.out.println("Premium & Comfortable");
+        System.out.print(RESET);
     }
 
     // =====================================================
