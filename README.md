@@ -1,57 +1,92 @@
-Ride Booking System
+# 🚖 Ride Booking System
 
-A console-based Ride Booking Application developed using Java and Object-Oriented Programming concepts. This project simulates a basic cab booking platform where users can select rides, calculate fares, and manage ride details.
+A console-based Ride Booking Application developed using Java and Object-Oriented Programming concepts.
 
-🚖 Features
-User Login & Authentication
-Cab Selection
-Hatchback
-Sedan
-SUV
-Fare Calculation based on distance
+This project simulates a cab booking platform where users can:
+- Select rides
+- Calculate fares
+- Manage ride details
 
+---
 
+# ✨ Features
 
-Driver & Ride Management
-Tip & Rating System
-Console-based Interactive Menu
-🛠 Technologies Used
-Java
-OOP Concepts
-Eclipse IDE
-Git 
-& GitHub
+- User Login & Authentication
+- Cab Selection
+  - Hatchback
+  - Sedan
+  - SUV
+- Fare Calculation based on distance
+- Driver & Ride Management
+- Tip & Rating System
+- Console-based Interactive Menu
 
-📂 Project Structure
+---
+
+# 🛠 Technologies Used
+
+- Java
+- OOP Concepts
+- Eclipse IDE
+- Git & GitHub
+
+---
+
+# 📂 Project Structure
+
+```text
 src/
  ├── main/
  ├── model/
  ├── service/
  └── assets/
+```
 
-💡 OOP Concepts Used
-Inheritance
-Polymorphism
-Encapsulation
+---
 
-▶️ How to Run
-Clone the repository
+# 💡 OOP Concepts Used
+
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Abstraction
+
+---
+
+# ▶️ How to Run
+
+## Clone Repository
+
+```bash
 git clone https://github.com/Sangeethas-hub/RideBooking-System.git
-Open the project in Eclipse or VS Code
-Run: 
+```
+
+## Run Project
+
+Open project in:
+- Eclipse
+- VS Code
+
+Run:
+```text
 MainApp.java
+```
 
-📸 Future Improvements
-GUI Interface
-Database Integration
-Online Payment System
-Live Driver Tracking
-Responsive Web Version
-Abstraction
+---
 
-👩‍💻 Author
-       Sangeetha Gedela
+# 🚀 Future Improvements
+
+- GUI Interface
+- Database Integration
+- Online Payment System
+- Live Driver Tracking
+- Responsive Web Version
+
+---
+
+# 👩‍💻 Author
+
+**Sangeetha Gedela**
+
 GitHub:
 https://github.com/Sangeethas-hub
-
-
